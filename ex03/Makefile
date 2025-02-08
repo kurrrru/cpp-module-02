@@ -1,7 +1,7 @@
 NAME = fixed
 
 # sources
-SRCS = main.cpp Fixed.cpp
+SRCS = main.cpp Fixed.cpp Point.cpp bsp.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
