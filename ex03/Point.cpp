@@ -13,10 +13,10 @@ Point::Point(const Fixed x, const Fixed y) : _x(x), _y(y) {
 Point::~Point() {
 }
 
-Point& Point::operator=(const Point& rhs) {
-    if (this != &rhs) {
-        _x = rhs.getX();
-        _y = rhs.getY();
+Point& Point::operator=(const Point& other) {
+    if (this != &other) {
+        _x = other.getX();
+        _y = other.getY();
     }
     return *this;
 }
