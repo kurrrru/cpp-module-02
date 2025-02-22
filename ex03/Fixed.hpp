@@ -44,5 +44,4 @@ class Fixed {
     static const int _fractionalBits = 8;
 };
 
-// なぜクラスの外で定義するのか？を解決する
 std::ostream& operator<<(std::ostream& os, const Fixed& fixed);
